@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+}
+.navigation-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    height: 80px;
+    width: 100%;
+    background-color: #000000;
+    color: #cbcbcb;
+}
+.left-column > .banner-image img {
+    width: 300px;
+}
+
+.center-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.center-column > .links-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 35px;
+}
+.center-column > .explorer {
+    margin-left: 38px;
+}
+.center-column > .explorer h1{
+    color: goldenrod;
+    margin: 0px;
+}
+.center-column > .links-wrapper a{
+    color: white;
+    text-decoration: none;
+}
+
+.Right-column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+a1 button i {
+    size: 50px;
+    color: chartreuse;
+}
+
+button {
+    padding: 0px;
+    margin: 0px;
+    height: 60px;
+    width: 200px;
+    background-color: gray;
+    color:white;
+    font-size: x-large;
+    font-family:sans-serif;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.text{
+    font-size: 45px;
+    flex-direction: row;
+    width: 100%;
+    height: 90px;
+    margin-top: 80px;
+}
+body{
+    background-color: rgba(45, 41, 41, 0.839);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.image img{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1px;
+    width: 800px;
+    height: 800px;
+}
+.image h1 {
+    padding-top: 100px;
+}
+
+.buttons-parent {
+    margin: 75px 0px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-container-button1 button{
+    height: 130px;
+    width: 450px;
+    background-color: rgba(115, 186, 8, 0.556);
+    color: black;
+    font-size: 50px;
+}
+
+.main-container-button2 button{
+    height: 100px;
+    width: 300px;
+    background-color: black;
+    font-size: 40px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer button{
+    width: 100%;
+    height: 80px;
+}
